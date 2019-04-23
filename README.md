@@ -10,11 +10,35 @@ Mettez votre code html dans une page HTML:
     
 ```html
 
-<form>
-	<div class="col-md-4"><label>Login:</label><input type="text" id="login"></div>
-	<div class="col-md-4"><label>Email</label><input type="email" id="email"></div>
-	<div class="col-md-4"><label>Mot de Passe</label><input type="password" id="password"></div>
-</form>
+
+<div class="container">
+
+<div class="row"><h1>Formulaire Authentification</h1></div>
+
+	<div class="row">
+
+
+			<form>
+				
+			<div class="col-md-4"><label>Login:</label><input type="text" id="login"></div>
+			<div class="col-md-4"><label>Email</label><input type="email" id="email"></div>
+			<div class="col-md-4"><label>Mot de Passe</label><input type="password" id="password"></div>
+			</form>
+	</div>
+
+
+<div class="row mt-5">
+	<div class="col-md-12">
+	    <input type="button" class="btn btn-primary" value="Enregistrer" onclick="valider()">
+    </div>
+</div>
+
+
+
+</div>
+
+
+
 ```
 
 Créer un fonction javascript qui fait la validation :
